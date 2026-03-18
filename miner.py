@@ -4,8 +4,8 @@ import binascii
 from nacl.signing import SigningKey
 
 BASE_URL = "https://wrcenmardnbprfpqhrqe.supabase.co/functions/v1/peanut-mining"
-AGENT_ID = "NAMA_AGENT"
-PRIVATE_KEY_HEX = "GANTI_PK" # Masukkan private key tadi di sini
+AGENT_ID = "bisaa_AGENT"
+PRIVATE_KEY_HEX = "64f0d3ccdeb2d1e680d322accd2c055bb7b196994b21245419699e0fe160c606" # Masukkan private key tadi di sini
 
 signing_key = SigningKey(binascii.unhexlify(PRIVATE_KEY_HEX))
 
